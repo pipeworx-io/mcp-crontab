@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/crontab",
+  "title": "Crontab",
+  "description": "Crontab expression MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/crontab",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-crontab",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/crontab/mcp"
+    }
+  ]
+}
