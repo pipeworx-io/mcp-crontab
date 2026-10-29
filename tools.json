@@ -1,0 +1,42 @@
+[
+  {
+    "name": "describe_cron",
+    "description": "Parse and validate a cron expression (5 fields or an @alias) and describe it in plain English. Returns the parsed fields and whether it is valid.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "expression": {
+          "type": "string",
+          "description": "A cron expression, e.g. \"0 9 * * 1-5\" or \"@daily\"."
+        }
+      },
+      "required": [
+        "expression"
+      ]
+    }
+  },
+  {
+    "name": "next_runs",
+    "description": "Compute the next N run times (UTC ISO-8601) for a cron expression. Optionally start from a given time.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "expression": {
+          "type": "string",
+          "description": "A cron expression or @alias."
+        },
+        "count": {
+          "type": "number",
+          "description": "How many upcoming runs to return (1-50, default 5)."
+        },
+        "from": {
+          "type": "string",
+          "description": "Optional ISO-8601 start time (default: now)."
+        }
+      },
+      "required": [
+        "expression"
+      ]
+    }
+  }
+]
