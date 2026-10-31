@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-crontab",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Crontab expression MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "crontab",
     "gatewaySlug": "crontab",
-    "sourceHash": "v1-0c1e165f99dbeb7e067a8099beb60e8fbf7700bbbd8f5195739f313f36e41c94",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-334ef80566e02c658e01e156f721cc48c29557e6733740b22dbd8c2d515d5d2b",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
